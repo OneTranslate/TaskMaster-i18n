@@ -1,0 +1,28 @@
+{
+  "dashboard": {
+    "title": "Tableau de bord"
+  },
+  "task": {
+    "due-date": {
+      "placeholder": "Sélectionnez une date",
+      "label": "Date d'échéance"
+    },
+    "description": {
+      "label": "Descriptif",
+      "placeholder": "Entrez la description de la tâche ici"
+    },
+    "assignee": {
+      "label": "Cessionnaire"
+    },
+    "new-task-button": "Ajouter une nouvelle tâche",
+    "complete-button": "Marquer comme terminé",
+    "empty-state": "Aucune tâche disponible"
+  },
+  "notification": {
+    "task-completed": "{{username}} a terminé une tâche.",
+    "task-assigned": "Une nouvelle tâche vous a été assignée par {{username}}."
+  },
+  "error": {
+    "generic": "Une erreur inattendue s'est produite. Veuillez réessayer ultérieurement."
+  }
+}

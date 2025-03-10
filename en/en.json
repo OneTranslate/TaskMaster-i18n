@@ -1,0 +1,28 @@
+{
+  "dashboard": {
+    "title": "Dashboard"
+  },
+  "task": {
+    "due-date": {
+      "placeholder": "Select a date",
+      "label": "Due Date"
+    },
+    "description": {
+      "label": "Description",
+      "placeholder": "Enter task description here"
+    },
+    "assignee": {
+      "label": "Assignee"
+    },
+    "new-task-button": "Add New Task",
+    "complete-button": "Mark as Completed",
+    "empty-state": "No tasks available"
+  },
+  "notification": {
+    "task-completed": "{{username}} completed a task.",
+    "task-assigned": "You have been assigned a new task by {{username}}."
+  },
+  "error": {
+    "generic": "An unexpected error occurred. Please try again later."
+  }
+}

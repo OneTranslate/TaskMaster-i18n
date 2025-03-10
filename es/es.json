@@ -1,0 +1,28 @@
+{
+  "dashboard": {
+    "title": "Panel"
+  },
+  "task": {
+    "new-task-button": "Agregar nueva tarea",
+    "due-date": {
+      "placeholder": "Selecciona una fecha",
+      "label": "Fecha de vencimiento"
+    },
+    "description": {
+      "label": "Descripción",
+      "placeholder": "Introduzca aquí la descripción de la tarea"
+    },
+    "empty-state": "No hay tareas disponibles",
+    "complete-button": "Marcar como completado",
+    "assignee": {
+      "label": "Cesionario"
+    }
+  },
+  "notification": {
+    "task-completed": "{{username}} ha completado una tarea",
+    "task-assigned": "{{username}} te ha asignado una nueva tarea."
+  },
+  "error": {
+    "generic": "Se ha producido un error inesperado. Vuelva a intentarlo más tarde."
+  }
+}
