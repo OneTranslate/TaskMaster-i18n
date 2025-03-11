@@ -1,6 +1,7 @@
 {
   "dashboard": {
-    "title": "Panel"
+    "title": "Panel",
+    "recent-activity": "Actividad reciente"
   },
   "task": {
     "new-task-button": "Agregar nueva tarea",
@@ -16,11 +17,23 @@
     "complete-button": "Marcar como completado",
     "assignee": {
       "label": "Cesionario"
+    },
+    "comment": {
+      "label": "Comentar",
+      "placeholder": "Añadir un comentario..."
+    },
+    "delete-confirmation": "¿Está seguro de que desea eliminar esta tarea?",
+    "priority": {
+      "label": "Prioridad",
+      "low": "Bajo",
+      "medium": "Mediano",
+      "high": "Alto"
     }
   },
   "notification": {
     "task-completed": "{{username}} ha completado una tarea",
-    "task-assigned": "{{username}} te ha asignado una nueva tarea."
+    "task-assigned": "{{username}} te ha asignado una nueva tarea.",
+    "comment-added": "{{username}} ha añadido un comentario nuevo."
   },
   "error": {
     "generic": "Se ha producido un error inesperado. Vuelva a intentarlo más tarde."

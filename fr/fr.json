@@ -1,6 +1,7 @@
 {
   "dashboard": {
-    "title": "Tableau de bord"
+    "title": "Tableau de bord",
+    "recent-activity": "Activité récente"
   },
   "task": {
     "due-date": {
@@ -16,11 +17,23 @@
     },
     "new-task-button": "Ajouter une nouvelle tâche",
     "complete-button": "Marquer comme terminé",
-    "empty-state": "Aucune tâche disponible"
+    "empty-state": "Aucune tâche disponible",
+    "comment": {
+      "label": "Commenter",
+      "placeholder": "Ajouter un commentaire..."
+    },
+    "delete-confirmation": "Êtes-vous sûr de vouloir supprimer cette tâche ?",
+    "priority": {
+      "label": "Priorité",
+      "medium": "Moyen",
+      "high": "Haut",
+      "low": "Faible"
+    }
   },
   "notification": {
     "task-completed": "{{username}} a terminé une tâche.",
-    "task-assigned": "Une nouvelle tâche vous a été assignée par {{username}}."
+    "task-assigned": "Une nouvelle tâche vous a été assignée par {{username}}.",
+    "comment-added": "{{username}} a ajouté un nouveau commentaire."
   },
   "error": {
     "generic": "Une erreur inattendue s'est produite. Veuillez réessayer ultérieurement."

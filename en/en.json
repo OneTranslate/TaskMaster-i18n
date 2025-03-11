@@ -1,6 +1,7 @@
 {
   "dashboard": {
-    "title": "Dashboard"
+    "title": "Dashboard",
+    "recent-activity": "Recent Activity"
   },
   "task": {
     "due-date": {
@@ -16,11 +17,23 @@
     },
     "new-task-button": "Add New Task",
     "complete-button": "Mark as Completed",
-    "empty-state": "No tasks available"
+    "empty-state": "No tasks available",
+    "comment": {
+      "label": "Comment",
+      "placeholder": "Add a comment..."
+    },
+    "delete-confirmation": "Are you sure you want to delete this task?",
+    "priority": {
+      "label": "Priority",
+      "medium": "Medium",
+      "high": "High",
+      "low": "Low"
+    }
   },
   "notification": {
     "task-completed": "{{username}} completed a task.",
-    "task-assigned": "You have been assigned a new task by {{username}}."
+    "task-assigned": "You have been assigned a new task by {{username}}.",
+    "comment-added": "{{username}} added a new comment."
   },
   "error": {
     "generic": "An unexpected error occurred. Please try again later."
